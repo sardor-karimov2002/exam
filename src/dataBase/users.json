@@ -1,0 +1,23 @@
+[
+    {
+        "userId": 1,
+        "username": "jasurbek",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "age": 21,
+        "gender": "male"
+    },
+    {
+        "username": "salim",
+        "password": "63640264849a87c90356129d99ea165e37aa5fabc1fea46906df1a7ca50db492",
+        "age": 20,
+        "gender": "male",
+        "userId": 5
+    },
+    {
+        "username": "rusaj",
+        "password": "63640264849a87c90356129d99ea165e37aa5fabc1fea46906df1a7ca50db492",
+        "age": 20,
+        "gender": "male",
+        "userId": 6
+    }
+]
