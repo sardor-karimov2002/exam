@@ -19,5 +19,26 @@
         "age": 20,
         "gender": "male",
         "userId": 6
+    },
+    {
+        "username": "anvar",
+        "password": "63640264849a87c90356129d99ea165e37aa5fabc1fea46906df1a7ca50db492",
+        "age": 20,
+        "gender": "male",
+        "userId": 7
+    },
+    {
+        "username": "sarvar",
+        "password": "63640264849a87c90356129d99ea165e37aa5fabc1fea46906df1a7ca50db492",
+        "age": 20,
+        "gender": "male",
+        "userId": 8
+    },
+    {
+        "username": "sarvr",
+        "password": "63640264849a87c90356129d99ea165e37aa5fabc1fea46906df1a7ca50db492",
+        "age": 20,
+        "gender": "male",
+        "userId": 9
     }
 ]

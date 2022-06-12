@@ -2,12 +2,18 @@ import express from "express";
 import fs from 'fs'
 import path from "path";
 const PORT = process.env.PORT || 6666
+
+import ChekToken from "./middlewares/ChekToken.js";
 const app = express()
 app.use(express.json())
+app.use( ChekToken )
 
-import usersRouters from './Routers/Roures.js'
-
+import usersRouters from './Routers/user.js'
 app.use(usersRouters)
+
+import postsRouter from './Routers/post.js'
+app.use(postsRouter)
+
 
 app.use((error, req, res, next) => {
     if (error.status != 500) {
