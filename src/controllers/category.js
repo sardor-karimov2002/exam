@@ -8,7 +8,7 @@ const GET = (req, res, next) => {
         category.map(category => {
             category.subcategory = subCategory.filter(sub => {
                 let filterd = sub.categoriya_Id == category.categoriya_Id
-
+                delete sub.products
                 return filterd
             })
         })

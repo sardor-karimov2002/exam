@@ -5,7 +5,6 @@ const GET = (req, res, next) =>{
      try {
         let subCategory = model.road('subCategory')
         let products = model.road('protucts')
-
         subCategory.map(sub =>{
             sub.products = products.filter(products => products.sub_category_Id == sub.sub_category_Id)
         })

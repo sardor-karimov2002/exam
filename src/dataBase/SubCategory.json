@@ -1,12 +1,32 @@
 [
     {
+        "sub_category_Id": 1,
         "categoriya_Id": 1,
         "sub_category_name": "smart phones",
-        "products": []
+        "products": [
+            {
+                "product_Id": 1,
+                "sub_category_Id": 1,
+                "model": "redmi",
+                "color": "black",
+                "produc_name": "redmi node 7",
+                "price": "190"
+            }
+        ]
     },
     {
+        "sub_category_Id": 2,
         "categoriya_Id": 2,
         "sub_category_name": "smart phones",
-        "products": []
+        "products": [
+            {
+                "product_Id": 2,
+                "sub_category_Id": 2,
+                "model": "redmi",
+                "color": "black",
+                "produc_name": "redmi node 7",
+                "price": "190"
+            }
+        ]
     }
 ]
