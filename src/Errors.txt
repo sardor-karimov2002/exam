@@ -1,8 +1,1 @@
 
-/poducts?userId%20=%202___InternalServerError___Time 1656198688136___userId is not defined
-/poducts?userId%20=%202___InternalServerError___Time 1656198740212___userId is not defined
-/poducts?userId=2___InternalServerError___Time 1656198774222___userId is not defined
-/poducts?userId=1___InternalServerError___Time 1656198807841___userId is not defined
-/poducts?search=s___InternalServerError___Time 1656198951012___produc_name is not defined
-/poducts?search=s___InternalServerError___Time 1656199992560___produc_name is not defined
-/poducts?search=s___InternalServerError___Time 1656200014572___produc_name is not defined
