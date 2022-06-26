@@ -34,7 +34,7 @@ app.use((error, req, res, next) => {
 
     res.status(error.status).json({
         status: error.status,
-        message:"InternalServerError"
+        message:error.message
     })
 
     fs.appendFileSync(path.join(process.cwd(), 'src', 'Errors.txt'),
