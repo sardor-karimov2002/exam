@@ -1,6 +1,7 @@
 import {Router} from "express";
 import controller from '../controllers/users.js'
 import validation from "../middlewares/validation.js";
+import ChekToken from '../middlewares/ChekToken.js'
 const router = Router()
 
 router.post('/login',validation, controller.LOGIN)

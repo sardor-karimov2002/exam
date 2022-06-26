@@ -1,18 +1,27 @@
 import express from "express";
+import cors from 'cors'
 import fs from 'fs'
 import path from "path";
 const PORT = process.env.PORT || 6666
 
-import ChekToken from "./middlewares/ChekToken.js";
 const app = express()
+
+app.use(cors())
 app.use(express.json())
-app.use( ChekToken )
+
 
 import usersRouters from './Routers/user.js'
 app.use(usersRouters)
 
-import postsRouter from './Routers/post.js'
-app.use(postsRouter)
+import CategoryRouter from './Routers/categorys.js'
+app.use(CategoryRouter)
+
+import SubCategoryRouter from './Routers/subCategory.js'
+app.use(SubCategoryRouter)
+
+import ProductsRouter from './Routers/products.js'
+app.use(ProductsRouter)
+
 
 
 app.use((error, req, res, next) => {
@@ -33,4 +42,4 @@ app.use((error, req, res, next) => {
 
     process.exit()
 })
-app.listen(6666, () => console.log(`${PORT + 'active........'}`))
+app.listen(PORT, () => console.log(`${PORT + 'active........'}`))

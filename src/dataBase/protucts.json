@@ -1,0 +1,34 @@
+[
+    {
+        "product_Id": 1,
+        "sub_category_Id": 1,
+        "model": "redmi",
+        "color": "black",
+        "produc_name": "redmi node 7",
+        "price": "190"
+    },
+    {
+        "product_Id": 2,
+        "sub_category_Id": 2,
+        "model": "redmi",
+        "color": "black",
+        "produc_name": "redmi node 7",
+        "price": "190"
+    },
+    {
+        "product_Id": 3,
+        "sub_category_Id": 3,
+        "model": "redmi",
+        "color": "black",
+        "produc_name": "redmi node 7",
+        "price": "190"
+    },
+    {
+        "sub_category_Id": 5,
+        "model": "samsung",
+        "color": "wihite",
+        "produc_name": "S21 ultra",
+        "price": "1100",
+        "product_Id": 4
+    }
+]

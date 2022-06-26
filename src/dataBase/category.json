@@ -1,0 +1,12 @@
+[
+    {
+        "categoriya_Id": 1,
+        "categoriya_name": "electronics",
+        "subcategory": []
+    },
+    {
+        "categoriya_Id": 2,
+        "categoriya_name": "clothes",
+        "subcategory": []
+    }
+]
